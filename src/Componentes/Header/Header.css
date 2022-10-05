@@ -1,0 +1,29 @@
+/***********MOBILE VERSION**************/
+
+@media only screen and (max-width: 859px) {
+    .header-container{
+        background-color: darkblue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .dropdown {
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    .header-title {
+        margin-right: 20px;
+    }
+    li {
+        list-style: none;
+    }
+
+}
+
+
+
+/***********DESKTOP VERSION**************/
+
+@media only screen and (min-width: 860px) {
+}
+
