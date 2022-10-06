@@ -1,15 +1,60 @@
 /***********MOBILE VERSION**************/
 
 @media only screen and (max-width: 859px) {
+    header {
+        width: 100vw;
+    }
     .header-container{
         background-color: darkblue;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    .dropdown {
+    
+    .dropdown-content {
+        position: absolute;
+        background-color: darkblue;
+        color: white;
+        margin-bottom: 0;
+        width: 100vw;  
+        top: 58px;
+        left: 0;
+        display: inline-block
+    }
+    .dropdown-content li {
+        list-style: none;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 20px 20px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .dropdown-content li:hover{
+        color: #B01E36;      
+    }
+    .dropdown-icon {
         margin-left: 20px;
-        font-size: 40px;
+        font-size: 34px;
+        z-index: 1;
+    }
+    .dropdown-content-submenu {
+        display: flex;
+        align-items: center;
+    }
+    .dropdown-submenu-icon {
+        margin-right: 20px;
+    }
+    .dropdown-bbb li {
+        list-style: none;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 20px 45px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
     .header-title {
         margin-right: 20px;

@@ -33,22 +33,24 @@ const Header = () => {
                 {
                     isMenuOpen ? 
                     <div className='dropdown-content'>
-                        <li onClick={() => scrollTo('.mobile-one')}>Cambio de titularidad</li>
-                        <div className='dropdown-submenu'onClick={()=>setShow(!show)}>
-                            <li></li>
-                            <span className='dropdown-submenu-icon'><FontAwesomeIcon icon={faAngleDown} /></span>
+                        <div className='dropdown-content-submenu'>
+                            <li onClick={() => scrollTo('.landing-documentation')}>Cambio de titularidad</li>
+                            <div className='dropdown-submenu'onClick={()=>setShow(!show)}>
+                                <span className='dropdown-submenu-icon'><FontAwesomeIcon icon={faAngleDown} /></span>
+                            </div>
                         </div>
+                        
                         
                         {
                             show ? <div className='dropdown-bbb'>    
-                            <li onClick={() => scrollTo('.mobile-two')}>Requisitos del vehículo</li>
-                            <li onClick={() => scrollTo('.mobile-three')}>Cómo y dónde</li>
-                            <li onClick={() => scrollTo('.mobile-four')}>Qué necesito</li>
+                            <li onClick={() => scrollTo('.landing-documentation-first')}>Requisitos del vehículo</li>
+                            <li onClick={() => scrollTo('.landing-documentation-second')}>Cómo y dónde</li>
+                            <li onClick={() => scrollTo('.landing-documentation-third')}>Qué necesito</li>
                             </div> : null
                         }
 
-                        <li onClick={() => scrollTo('.landing-first')}></li>
-                        <li onClick={() => scrollTo('.landing-last')}></li>
+                        <li onClick={() => scrollTo('.landing-first')}>Pide cita</li>
+                        <li onClick={() => scrollTo('.landing-last')}>Contacto</li>
                     </div> : null
                 } 
 

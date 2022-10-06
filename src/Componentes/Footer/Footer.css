@@ -1,0 +1,19 @@
+/***********MOBILE VERSION**************/
+
+@media only screen and (max-width: 859px) {
+    .footer-container {
+        background-color: darkblue;
+        color: white;
+        bottom: 0;
+        position: absolute;
+        width: 100vw;
+    }
+
+}
+
+
+
+/***********DESKTOP VERSION**************/
+
+@media only screen and (min-width: 860px) {
+}

@@ -1,6 +1,18 @@
 /***********MOBILE VERSION**************/
 
 @media only screen and (max-width: 859px) {
+    .landing-container {
+        margin: auto 20px;
+    }
+    .landing-documentation {
+        text-align: start;
+    }
+    .landing-documentation h4 {
+        font-size: 28px;
+    }
+    ul {
+        padding-left: 0;
+    }
 
 }
 
