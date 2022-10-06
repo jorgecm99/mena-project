@@ -13,7 +13,16 @@
     ul {
         padding-left: 0;
     }
-
+    .containers {
+        background-color: rgb(66, 189, 230);
+        color: white;
+        border-radius: 3px;
+        margin: 100px auto;
+        padding: 5px 10px;
+    }
+    .containers h2 {
+        margin: 5px auto;
+    }
 }
 
 

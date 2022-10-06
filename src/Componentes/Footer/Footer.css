@@ -4,7 +4,6 @@
     .footer-container {
         background-color: darkblue;
         color: white;
-        bottom: 0;
         position: absolute;
         width: 100vw;
     }

@@ -10,7 +10,6 @@ const Header = () => {
 
   const scrollTo = (nodeSelector) => {
     const domNode = document.querySelector(nodeSelector)
-
     window.scrollTo?.({ top: domNode.offsetTop, behavior: 'smooth' });
 }
 
@@ -50,7 +49,7 @@ const Header = () => {
                         }
 
                         <li onClick={() => scrollTo('.landing-first')}>Pide cita</li>
-                        <li onClick={() => scrollTo('.landing-last')}>Contacto</li>
+                        <li onClick={() => scrollTo('.landing-documentation-four')}>Contacto</li>
                     </div> : null
                 } 
 
