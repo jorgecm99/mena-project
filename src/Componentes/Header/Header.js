@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
-import { faBars, faX } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faX, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
 
@@ -56,7 +56,8 @@ const Header = () => {
                 
             </div>
             <div className='header-title'>
-                <h3>aqui va el header</h3>
+            <FontAwesomeIcon icon={faPhone} className='icon-header' />
+            <p>691 78 44 16</p>
             </div>
         </nav>
     </header>

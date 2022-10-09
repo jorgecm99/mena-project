@@ -3,6 +3,7 @@
 @media only screen and (max-width: 859px) {
     header {
         width: 100vw;
+        top: 0;
     }
     .header-container{
         background-color: darkblue;
@@ -26,7 +27,7 @@
         color: #FFFFFF;
         font-size: 18px;
         font-weight: 700;
-        padding: 20px 20px;
+        padding: 15px 20px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -58,6 +59,16 @@
     }
     .header-title {
         margin-right: 20px;
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: 25px;
+    }
+    .header-title p {
+        margin: 15px auto;
+    }
+    .icon-header {
+        margin-right: 12px;
     }
     li {
         list-style: none;

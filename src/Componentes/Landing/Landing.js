@@ -1,5 +1,7 @@
 import React from 'react';
 import './Landing.css';
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Landing = () => {
   return (
@@ -7,6 +9,15 @@ const Landing = () => {
 
       <div className='landing-documentation'>
         <h4>Cambio de titularidad de vehículo</h4>
+        <div className='landing-documentation-text'>
+          <p>Gestionamos de manera rápida y sencilla el cambio de nombre para tu coche, moto o camión y el 
+            contrato oportuno de compraventa.</p>
+          <p>La transferencia de vehículos requiere de la realización de gestiones y tramites en Hacienda y 
+            la Jefatura de Trafico. </p>
+          <p>Nosotros nos encargamos y te ayudamos con esta gestión para que tanto el vendedor se 
+            asegure de la correcta presentación en Trafico y el comprador pueda circular correctamente 
+            con su nuevo vehículo.</p>
+        </div>
 
         <div className='landing-documentation-first containers'>
           <h2>Requisitos del vehículo</h2>
@@ -32,7 +43,14 @@ const Landing = () => {
 
         <div className='landing-documentation-four containers'>
           <h2>Contacto</h2>
-          <p></p>
+          <div className='landing-documentation-four-contacts'>
+            <FontAwesomeIcon icon={faEnvelope} />
+            <p><a href='catalinabarrosr@gmail.com'>catalinabarrosr@gmail.com</a></p>
+          </div>
+          <div className='landing-documentation-four-contacts'>
+            <FontAwesomeIcon icon={faPhone} />
+            <p>691784416</p>
+          </div>
         </div>
       </div>
     </div>
