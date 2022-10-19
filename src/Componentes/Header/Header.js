@@ -15,6 +15,9 @@ const Header = () => {
 
   return (
     <header>
+
+        {/******************* HEADER MOBILE ****************************/}
+
         <nav className='header-container'>
         {/********** ICON ******************/}
         <div className='dropdown'>
@@ -57,8 +60,23 @@ const Header = () => {
             </div>
             <div className='header-title'>
             <FontAwesomeIcon icon={faPhone} className='icon-header' />
-            <p>691 78 44 16</p>
+            <p>+34 637 54 91 69</p>
             </div>
+        </nav>
+
+        {/******************* HEADER DESKTOP ****************************/}
+
+        <nav className='header-container-desktop'>
+            <div className='header-desktop-link'>
+                <h4>CenitGestoria.es</h4>
+            </div>
+
+            <ul className='header-desktop-list'>
+                <li>Cambio de titularidad</li>
+                <li>Pide cita</li>
+                <li>Contacto</li>  
+            </ul>
+
         </nav>
     </header>
   )

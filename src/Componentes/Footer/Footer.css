@@ -7,6 +7,19 @@
         position: absolute;
         width: 100vw;
     }
+    .footer-documentation-four-contacts {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+    .footer-documentation-four-contacts p {
+        margin: 4px auto 4px 10px;
+        
+    }
+    .footer-documentation-four-contacts p a {
+        text-decoration: none;
+        color: white;
+    }
 
 }
 
@@ -15,4 +28,14 @@
 /***********DESKTOP VERSION**************/
 
 @media only screen and (min-width: 860px) {
+    .footer-container {
+        background-color: darkblue;
+        color: white;
+        position: absolute;
+        width: 100vw;
+    }
+    .footer-documentation-four-contacts p a {
+        text-decoration: none;
+        color: white;
+    }
 }

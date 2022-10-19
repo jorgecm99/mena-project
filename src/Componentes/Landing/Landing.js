@@ -1,7 +1,6 @@
 import React from 'react';
 import './Landing.css';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 const Landing = () => {
   return (
@@ -39,18 +38,6 @@ const Landing = () => {
             <li>4. Contrato de compraventa firmado por ambas partes (digital o manual)</li>
             <li>5. Impuesto municipal de circulación del año anterior</li>
           </ul>
-        </div>
-
-        <div className='landing-documentation-four containers'>
-          <h2>Contacto</h2>
-          <div className='landing-documentation-four-contacts'>
-            <FontAwesomeIcon icon={faEnvelope} />
-            <p><a href='catalinabarrosr@gmail.com'>catalinabarrosr@gmail.com</a></p>
-          </div>
-          <div className='landing-documentation-four-contacts'>
-            <FontAwesomeIcon icon={faPhone} />
-            <p>691784416</p>
-          </div>
         </div>
       </div>
     </div>
