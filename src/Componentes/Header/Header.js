@@ -52,7 +52,7 @@ const Header = () => {
                         }
 
                         <li onClick={() => scrollTo('.landing-first')}>Pide cita</li>
-                        <li onClick={() => scrollTo('.landing-documentation-four')}>Contacto</li>
+                        <li onClick={() => scrollTo('.footer-container')}>Contacto</li>
                     </div> : null
                 } 
 

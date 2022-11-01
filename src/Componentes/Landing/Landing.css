@@ -6,6 +6,7 @@
     }
     .landing-documentation {
         text-align: start;
+        
     }
     .landing-documentation h4 {
         font-size: 28px;
@@ -22,6 +23,15 @@
     }
     .containers h2 {
         margin: 5px auto;
+    }
+    .landing-documentation-third-list {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        margin: 5px auto;
+    }
+    .landing-documentation-third-list li{
+        margin-left: 10px;
     }
     
 }
