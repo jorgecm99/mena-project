@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import './Header.css';
-import { faBars, faX, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown} from '@fortawesome/free-solid-svg-icons';
+import { faAngleDown, faBars, faX, faKey } from '@fortawesome/free-solid-svg-icons';
+import imageHeaderMobile from '../../Assets/Images/header-main-blanco.png';
+import headerImage from '../../Assets/Images/header-main.png'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,6 +20,7 @@ const Header = () => {
         {/******************* HEADER MOBILE ****************************/}
 
         <nav className='header-container'>
+        <div className='header-container-display'>
         {/********** ICON ******************/}
         <div className='dropdown'>
                 <div className='dropdown-icon'>
@@ -58,17 +60,30 @@ const Header = () => {
 
                 
             </div>
-            <div className='header-title'>
-            <FontAwesomeIcon icon={faPhone} className='icon-header' />
-            <p>+34 637 54 91 69</p>
+            <img src={imageHeaderMobile} className='header-image-mobile' alt=""></img>
             </div>
+
+        {/***********************CONTAINER******************************/}
+
+        <div className='header-main-container'>
+            <h2 className='main-container-title'>Transferencia de vehículos online</h2>
+            <p className='tagline'>En Cenit contamos con profesionales expertos en distintas áreas, nuestros servicios los realizan profesionales habilitados.</p>
+            <p className='tagline'>Estamos especializados en trámites de tráfico y gestiones administrativas con las distintas instituciones de la administración pública.</p>
+            <p className='tagline'>Ofrecemos calidad y eficiencia en nuestros de asesoramiento y gestión administrativa.</p>
+        </div>
+
+        <div className='header-main-container-icon'>
+            <FontAwesomeIcon icon={faKey} />
+        </div>       
         </nav>
+
+        
 
         {/******************* HEADER DESKTOP ****************************/}
 
         <nav className='header-container-desktop'>
             <div className='header-desktop-link'>
-                <h4>CenitGestoria.es</h4>
+                <a href='www.cenitgestoria.es'><img src={headerImage} alt='cenit' className='header-image'></img></a>
             </div>
 
             <ul className='header-desktop-list'>

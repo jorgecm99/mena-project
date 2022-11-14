@@ -2,22 +2,29 @@
 
 @media only screen and (max-width: 859px) {
     .landing-container {
-        margin: auto 20px;
+        margin: auto 10px;
+        background-color: #F2F1EC;
     }
     .landing-documentation {
-        text-align: start;
+        color: #FFB9F6;
+        margin: 12px auto;
+        line-height: 20.5px;
+        letter-spacing: 1.5px;
+        text-align: left;
         
     }
     .landing-documentation h4 {
         font-size: 28px;
+        font-family: 'Rubik-Light';
+        color: #F7F7F7;
     }
     ul {
         padding-left: 0;
     }
     .containers {
-        background-color: rgb(66, 189, 230);
+        background-color: #6C9286;
         color: white;
-        border-radius: 3px;
+        border-radius: 0.25rem;
         margin: 100px auto;
         padding: 5px 10px;
     }
