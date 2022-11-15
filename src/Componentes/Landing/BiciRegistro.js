@@ -5,7 +5,7 @@ const BiciRegistro = () => {
   return (
     <div className='container-bici'>
         <div className='container-bici-one'>
-            <h4 className='container-bici-title'>¿Qué es biciRegistro?</h4>
+            <h4 className='container-bici-title'>¿Qué es BiciRegistro?</h4>
             <p className='tagline-bici'>BiciRegistro es una iniciativa de la Red de Ciudades por la Bicicleta que cuenta con el apoyo 
                 de la DGT, Ayuntamientos y sus Policías Locales. El objetivo principal es el de disuadir el 
                 robo de bicicletas, facilitar su recuperación y limitar el comercio ilegal asociado al robo 
@@ -17,13 +17,13 @@ const BiciRegistro = () => {
                  utiliza una patente de marcaje procedente de Reino Unido (pegatinas indelebles en el bastidor).</p>
         </div>
         <div className='container-bici-two'>
-            <h4 className='container-bici-title'>Localiza tu biciRegistro</h4>
+            <h4 className='container-bici-title'>Localiza tu BiciRegistro</h4>
             <p className='tagline-bici'>Dentro de la página web de BiciRegistro, dispones de dos buscadores: un buscador de bicicletas 
                 desaparecidas para indicar que tu bici ha sido sustraída, y otro de bicicletas que han sido 
                 localizadas para poder localizar tu bicicleta en caso de robo, si piensas que tu bicicleta 
                 está en la lista, solo tendrás que rellenar un formulario con información básica y la policía 
                 se pondrá en contacto contigo lo antes posible.</p>
-            <p>OBTENGA SU REGISTRO POR SOLO 40 (IVA y gastos de registro incluidos)</p>
+            <p className='container-bici-title-text'>OBTENGA SU REGISTRO POR SOLO 40€ (IVA y gastos de registro incluidos)</p>
         </div>
     </div>
   )

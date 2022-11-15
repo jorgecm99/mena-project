@@ -7,6 +7,7 @@
         color: #f7f7f7;
         background-image: linear-gradient( 135deg, rgba(60, 8, 118, 0.8) 0%, rgba(250, 0, 118, 0.8) 100%);
         text-align: center;
+        height: 100vh;
         
     }
     .header-container-display {
@@ -22,49 +23,43 @@
     
     .dropdown-content {
         position: absolute;
-        background-color: darkblue;
-        color: white;
+        background-color: red;
         margin-bottom: 0;
         width: 100vw;  
-        top: 58px;
+        top: 110px;
         left: 0;
-        display: inline-block
+        display: inline-block;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
     }
     .dropdown-content li {
         list-style: none;
-        color: #FFFFFF;
-        font-size: 18px;
-        font-weight: 700;
-        padding: 15px 20px;
+        color: #FFFFFF80;
+        font-family: 'Rubik-Light';
+        font-size: 16px;
+        font-weight: 300;
+        padding: 18px 20px;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
     }
-    .dropdown-content li:hover{
-        color: #B01E36;      
+    .dropdown-content li:hover {
+        list-style: none;
+        color: #FFFFFF;
+        font-family: 'Rubik-Light';
+        font-size: 16px;
+        font-weight: 400;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .dropdown-icon {
         margin-left: 20px;
         font-size: 34px;
         z-index: 1;
         font-weight: 200;
-    }
-    .dropdown-content-submenu {
-        display: flex;
-        align-items: center;
-    }
-    .dropdown-submenu-icon {
-        margin-right: 20px;
-    }
-    .dropdown-bbb li {
-        list-style: none;
-        color: #FFFFFF;
-        font-size: 18px;
-        font-weight: 700;
-        padding: 20px 45px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
     }
     .header-title {
         width: 240px;
@@ -106,9 +101,18 @@
         letter-spacing: 1.5px;
     }
     .header-main-container-icon {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 80px;
+    }
+    .btn-header-container {
+        background-color: transparent;
         color:#FFB9F6;
+        border: 1px solid white;
         font-size: 50px;
-        padding: 0 0 50px;
+        width: 120px;
+        border-radius: 4px;
     }
 
 }

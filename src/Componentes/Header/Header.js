@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleDown, faBars, faX, faKey } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faX, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import imageHeaderMobile from '../../Assets/Images/header-main-blanco.png';
 import headerImage from '../../Assets/Images/header-main.png'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [show, setShow] = useState(false);
 
   const scrollTo = (nodeSelector) => {
     const domNode = document.querySelector(nodeSelector)
@@ -37,24 +36,12 @@ const Header = () => {
                 {
                     isMenuOpen ? 
                     <div className='dropdown-content'>
-                        <div className='dropdown-content-submenu'>
-                            <li onClick={() => scrollTo('.landing-documentation')}>Cambio de titularidad</li>
-                            <div className='dropdown-submenu'onClick={()=>setShow(!show)}>
-                                <span className='dropdown-submenu-icon'><FontAwesomeIcon icon={faAngleDown} /></span>
-                            </div>
-                        </div>
-                        
-                        
-                        {
-                            show ? <div className='dropdown-bbb'>    
-                            <li onClick={() => scrollTo('.landing-documentation-first')}>Requisitos del vehículo</li>
-                            <li onClick={() => scrollTo('.landing-documentation-second')}>Cómo y dónde</li>
-                            <li onClick={() => scrollTo('.landing-documentation-third')}>Qué necesito</li>
-                            </div> : null
-                        }
-
-                        <li onClick={() => scrollTo('.landing-first')}>Pide cita</li>
-                        <li onClick={() => scrollTo('.footer-container')}>Contacto</li>
+                        <li onClick={() => scrollTo('.landing-documentation')}>MATRICULACIÓN</li>
+                        <li onClick={() => scrollTo('.landing-documentation')}> CAMBIO DE TITULARIDAD</li> 
+                        <li onClick={() => scrollTo('.landing-first')}>OTROS TRÁMITES</li>                  
+                        <li onClick={() => scrollTo('.landing-first')}>MEDIO AMBIENTE</li>
+                        <li onClick={() => scrollTo('.landing-first')}>BiciRegistro</li>
+                        <li onClick={() => scrollTo('.footer-container')}>CONTACTO</li>
                     </div> : null
                 } 
 
@@ -73,7 +60,8 @@ const Header = () => {
         </div>
 
         <div className='header-main-container-icon'>
-            <FontAwesomeIcon icon={faKey} />
+            <button className='btn-header-container'><FontAwesomeIcon icon={faEnvelope} /></button>
+            <button className='btn-header-container'><FontAwesomeIcon icon={faPhone} /></button>
         </div>       
         </nav>
 

@@ -36,17 +36,7 @@ const Landing = () => {
               por España durante el tiempo de tramitación en Tráfico.</p>
             <p>Para calcular usted mismo el valor de su vehículo pulse en el siguiente enlace de la Comunidad de Madrid.
                El impuesto de transmisiones patrimoniales será el 4% del valor de su vehículo.</p>
-            <a href='http://gestiona.madrid.org/vlin_valora_bienes/html/vehiculos/turismos.jsf?id=100_Turismos'>Calcula el valor de tu vehículo</a>
-          </div>
-        </div>
-
-        {/***************CONTAINER DOCUMENTACION DUPLICADO Y BAJAS********************/}
-        <div className='landing-documentation-zero containers' data-aos="fade-up" data-aos-duration="1500">
-          <div className='landing-documentation-text'>
-            <p>Duplicados de permiso de circulación por cambios de domicilio, deterioro, extravío y sustracción.</p>
-            <p>Bajas definitivas por traslado del vehículo a otro pais, bajas temporales y altas de los vehículos en situación de baja temporal.</p>
-            <p>Canje de permiso de conducción por traslado de residencia a España.</p>
-            <p>Permiso internacional de conducir.</p>
+            <button className='btn-change'><a href='http://gestiona.madrid.org/vlin_valora_bienes/html/vehiculos/turismos.jsf?id=100_Turismos' target="_blank" rel="noopener noreferrer">Valor de tu vehículo</a></button>
           </div>
         </div>
 
@@ -61,19 +51,6 @@ const Landing = () => {
           </div>
         </div>
 
-        {/***************CONTAMINACION********************/}
-        <div className='landing-documentation-zero containers' data-aos="fade-up" data-aos-duration="1500">
-          <h4>Distintivos ambientales para coches y motos</h4>
-          <div className='landing-documentation-text'>
-            <p>La clasificación del parque tiene como objetivo discriminar positivamente a los vehículos mas respetuosos 
-              con el medio ambiente y ser un instrumento eficaz al servicio de las políticas municipales, tanto 
-              restrictivas de trafico en episodios de alta contaminación, como de promoción de nuevas tecnologías a 
-              través de beneficios fiscales o relativos a la movilidad y el medio ambiente.</p>
-            <p>La Direccion General de Tráfico ha clasificado el parque de motocicletas y ciclomotores en función de su 
-              potencial contaminante. Los vehículos que se han catalogado en siguientes categorías:</p>
-          </div>
-        </div>
-
         {/*************************DOCUMENTOS EXTRANJEROS********************/}
         <div className='landing-documentation-zero containers' data-aos="fade-up" data-aos-duration="1500">
           <h4>Legalización de documentos extranjeros</h4>
@@ -85,6 +62,30 @@ const Landing = () => {
                vía telemática.</p>
             <p>Se dispone de 15 días para retirar el permiso de circulación definitivo en la Jefatura de 
               Tráfico correspondiente.</p>
+          </div>
+        </div>
+
+        {/***************OTROS TRÁMITES********************/}
+        <div className='landing-documentation-zero containers' data-aos="fade-up" data-aos-duration="1500">
+        <h4>Otros trámites</h4>
+          <div className='landing-documentation-text'>
+            <p>Duplicados de permiso de circulación por cambios de domicilio, deterioro, extravío y sustracción.</p>
+            <p>Bajas definitivas por traslado del vehículo a otro pais, bajas temporales y altas de los vehículos en situación de baja temporal.</p>
+            <p>Canje de permiso de conducción por traslado de residencia a España.</p>
+            <p>Permiso internacional de conducir.</p>
+          </div>
+        </div>
+
+        {/***************MEDIO AMBIENTE********************/}
+        <div className='landing-documentation-zero containers' data-aos="fade-up" data-aos-duration="1500">
+          <h4>Medio Ambiente</h4>
+          <div className='landing-documentation-text'>
+            <p>La clasificación del parque tiene como objetivo discriminar positivamente a los vehículos mas respetuosos 
+              con el medio ambiente y ser un instrumento eficaz al servicio de las políticas municipales, tanto 
+              restrictivas de trafico en episodios de alta contaminación, como de promoción de nuevas tecnologías a 
+              través de beneficios fiscales o relativos a la movilidad y el medio ambiente.</p>
+            <p>La Direccion General de Tráfico ha clasificado el parque de motocicletas y ciclomotores en función de su 
+              potencial contaminante. Los vehículos que se han catalogado en siguientes categorías:</p>
           </div>
         </div>
       </div>

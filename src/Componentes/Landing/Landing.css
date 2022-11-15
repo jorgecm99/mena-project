@@ -16,14 +16,15 @@
     .landing-documentation h4 {
         font-size: 28px;
         font-family: 'Rubik-Light';
-        color: #F7F7F7;
+        color: #365B6D;
+        line-height: 1;
     }
     ul {
         padding-left: 0;
     }
     .containers {
-        background-color: #6C9286;
-        color: white;
+        background-color: #F7F7F7;
+        color: #365B6D;
         border-radius: 0.25rem;
         margin: 100px auto;
         padding: 5px 10px;
@@ -39,6 +40,28 @@
     }
     .landing-documentation-third-list li{
         margin-left: 10px;
+    }
+    .landing-documentation a {
+        text-decoration: none;
+        color: #F2F1EC;
+        text-transform: uppercase;
+        
+    }
+    .btn-change {
+        background-color: #365B6D;
+        color: #F2F1EC;
+        font-family: 'Rubik-Light';
+        font-size: 14px;
+        width: 100%;
+        border: 0;
+        cursor: pointer;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 0px 9px 32px 0px rgb(0 0 0 / 20%);
+        line-height: 1.5;
+        padding: 10px 15px;
+        margin: 30px 0;
+
     }
     
 }
