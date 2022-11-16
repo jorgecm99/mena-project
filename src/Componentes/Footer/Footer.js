@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='footer-documentation-four'>
           <div className='footer-documentation-four-contacts'>
             <FontAwesomeIcon icon={faEnvelope} />
-            <p><a href='catalinabarrosr@gmail.com'>info@cenitgestoria.es</a></p>
+            <p><a href='mailto: catalinabarrosr@gmail.com'>info@cenitgestoria.es</a></p>
           </div>
           <div className='footer-documentation-four-contacts'>
             <FontAwesomeIcon icon={faPhone} />

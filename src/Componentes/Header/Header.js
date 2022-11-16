@@ -37,10 +37,10 @@ const Header = () => {
                     isMenuOpen ? 
                     <div className='dropdown-content'>
                         <li onClick={() => scrollTo('.landing-documentation')}>MATRICULACIÓN</li>
-                        <li onClick={() => scrollTo('.landing-documentation')}> CAMBIO DE TITULARIDAD</li> 
-                        <li onClick={() => scrollTo('.landing-first')}>OTROS TRÁMITES</li>                  
-                        <li onClick={() => scrollTo('.landing-first')}>MEDIO AMBIENTE</li>
-                        <li onClick={() => scrollTo('.landing-first')}>BiciRegistro</li>
+                        <li onClick={() => scrollTo('.titularidad')}> CAMBIO DE TITULARIDAD</li> 
+                        <li onClick={() => scrollTo('.tramites')}>OTROS TRÁMITES</li>                  
+                        <li onClick={() => scrollTo('.ambiente')}>MEDIO AMBIENTE</li>
+                        <li onClick={() => scrollTo('.container-bici')}>BiciRegistro</li>
                         <li onClick={() => scrollTo('.footer-container')}>CONTACTO</li>
                     </div> : null
                 } 
@@ -60,8 +60,8 @@ const Header = () => {
         </div>
 
         <div className='header-main-container-icon'>
-            <button className='btn-header-container'><FontAwesomeIcon icon={faEnvelope} /></button>
-            <button className='btn-header-container'><FontAwesomeIcon icon={faPhone} /></button>
+            <button className='btn-header-container'><a href='mailto: catalinabarrosr@gmail.com'><FontAwesomeIcon icon={faEnvelope} style={{color:'#F2F1EC'}}/></a></button>
+            <button className='btn-header-container'><a href="tel:+34 637 54 91 69"><FontAwesomeIcon icon={faPhone} style={{color:'#F2F1EC'}}/></a></button>
         </div>       
         </nav>
 
