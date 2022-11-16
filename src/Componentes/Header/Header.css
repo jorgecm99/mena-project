@@ -7,7 +7,7 @@
         color: #f7f7f7;
         background-image: linear-gradient( 135deg, rgba(43, 73, 88, 0.8) 0%, rgba(89, 121, 111, 0.8) 100%);
         text-align: center;
-        height: 100vh;
+        height: 100%;
         
     }
     .header-container-display {
