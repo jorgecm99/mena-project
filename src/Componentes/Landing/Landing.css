@@ -47,8 +47,7 @@
     .landing-documentation a {
         text-decoration: none;
         color: #F2F1EC;
-        text-transform: uppercase;
-        
+        text-transform: uppercase;       
     }
     .btn-change {
         background-color: #365B6D;
@@ -92,7 +91,9 @@
         background-color: #69f5a3;
         font-weight: 500;
         padding-left: 10px;
+        padding-right: 10px;
     }
+    
     
 }
 
@@ -107,8 +108,6 @@
     }
     .landing-documentation {
         display: flex;
-        justify-content: center;
-        align-items: flex-start;
         flex-wrap: wrap;
         color: #FFB9F6;
         margin: 12px auto;
@@ -129,24 +128,33 @@
         padding-left: 0;
     }
     .containers {
+        max-width: 40%;
         background-color: #F7F7F7;
         color: #365B6D;
         border-radius: 0.25rem;
-        margin: 100px auto;
+        margin: 60px auto;
         padding: 5px 10px;
         box-shadow: 0px 9px 32px 0px rgb(0 0 0 / 20%);
+    }
+    .containers h2 {
+        margin: 5px auto;
     }
     .landing-documentation a {
         text-decoration: none;
         color: #F2F1EC;
         text-transform: uppercase;      
     }
+    .btn-container {
+        align-items: center;
+        margin: 30px auto;
+        width: 250px;
+    }
     .btn-change {
         background-color: #365B6D;
         color: #F2F1EC;
         font-family: 'Rubik-Light';
         font-size: 14px;
-        width: 100%;
+        width: 250px;
         border: 0;
         cursor: pointer;
         text-align: center;
@@ -154,7 +162,6 @@
         box-shadow: 0px 9px 32px 0px rgb(0 0 0 / 20%);
         line-height: 1.5;
         padding: 10px 15px;
-        margin: 30px 0;
     }
     .icon-container {
         position: relative;
@@ -173,6 +180,31 @@
         right: 0;
         bottom: 0;
         margin: auto;
+    }
+    .necesary {
+        margin-bottom: 4px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .container-slider {
+        background-color: #69f5a3;
+        font-weight: 500;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .landing-documentation-third-list {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        margin: 5px auto;
+    }
+    .landing-documentation-third-list li{
+        margin-left: 10px;
+    }
+    .landing-documentation a {
+        text-decoration: none;
+        color: #F2F1EC;
+        text-transform: uppercase;       
     }
     
 }

@@ -77,7 +77,10 @@ const Landing = () => {
               por España durante el tiempo de tramitación en Tráfico.</p>
             <p>Para calcular usted mismo el valor de su vehículo pulse en el siguiente enlace de la Comunidad de Madrid.
                El impuesto de transmisiones patrimoniales será el 4% del valor de su vehículo.</p>
-            <button className='btn-change'><a href='http://gestiona.madrid.org/vlin_valora_bienes/html/vehiculos/turismos.jsf?id=100_Turismos' target="_blank" rel="noopener noreferrer">Valor de tu vehículo</a></button>
+            <div className='btn-container'>
+              <button className='btn-change'><a href='http://gestiona.madrid.org/vlin_valora_bienes/html/vehiculos/turismos.jsf?id=100_Turismos' target="_blank" rel="noopener noreferrer">Valor de tu vehículo</a></button>
+            </div>
+            
           </div>
         </div>
 

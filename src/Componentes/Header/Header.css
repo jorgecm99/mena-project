@@ -171,14 +171,22 @@
         color: #365B6D;
         font-size: 24px;
     }
-    /*.image-landing {
-        width: 25%;
-    }*/
     .landing-img {
         filter: brightness(22%);
         width: 100vw;
     	height: 135px;
     	object-fit: cover;
+    }
+    .main-container-title {
+        color: #faf6fb;
+        font-size: 40px;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: 'Rubik-Light';
+        font-weight: 300;
+        letter-spacing: -1px;
+        position: relative;
+        top: -100px;
     }
 
 }

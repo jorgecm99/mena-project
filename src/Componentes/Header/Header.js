@@ -98,6 +98,8 @@ const Header = () => {
       {/***************CONTAINER IMAGE LANDING********************/}
       <div className='image-landing'>
         <img src={imageLanding} className='landing-img' alt='landing'></img>
+            <h2 className='main-container-title'>Transferencia de vehículos online</h2>
+        
       </div>
     </header>
   )
