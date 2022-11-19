@@ -64,7 +64,6 @@
         line-height: 1.5;
         padding: 10px 15px;
         margin: 30px 0;
-
     }
     .icon-container {
         position: relative;
@@ -103,14 +102,77 @@
 
 @media only screen and (min-width: 860px) {
     .landing-container {
-        width: 50%;
-        margin: auto auto;
+        margin: auto 10px;
+        background-color: #F2F1EC;
     }
-    .landing-documentation-third li{
-        list-style: none;
-    }
-    .landing-documentation-third {
+    .landing-documentation {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        color: #FFB9F6;
+        margin: 12px auto;
+        line-height: 20.5px;
+        letter-spacing: 1.5px;
         text-align: left;
-
+        
     }
+    .landing-documentation h4 {
+        text-align: center;
+        font-size: 28px;
+        font-family: 'Rubik-Light';
+        color: #365B6D;
+        line-height: 1;
+        margin-top: 0;
+    }
+    ul {
+        padding-left: 0;
+    }
+    .containers {
+        background-color: #F7F7F7;
+        color: #365B6D;
+        border-radius: 0.25rem;
+        margin: 100px auto;
+        padding: 5px 10px;
+        box-shadow: 0px 9px 32px 0px rgb(0 0 0 / 20%);
+    }
+    .landing-documentation a {
+        text-decoration: none;
+        color: #F2F1EC;
+        text-transform: uppercase;      
+    }
+    .btn-change {
+        background-color: #365B6D;
+        color: #F2F1EC;
+        font-family: 'Rubik-Light';
+        font-size: 14px;
+        width: 100%;
+        border: 0;
+        cursor: pointer;
+        text-align: center;
+        vertical-align: middle;
+        box-shadow: 0px 9px 32px 0px rgb(0 0 0 / 20%);
+        line-height: 1.5;
+        padding: 10px 15px;
+        margin: 30px 0;
+    }
+    .icon-container {
+        position: relative;
+        border: 1px solid #2ECC71;
+        border-radius: 40px;
+        width: 80px;
+        height: 80px;
+        background-color: #69f5a3;
+        margin: 30px auto;
+    }
+    .icon-style {
+        position: absolute;
+        font-size: 50px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    
 }

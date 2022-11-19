@@ -21,6 +21,7 @@ const Landing = () => {
 
   return (
     <div className='landing-container'>
+
       <div className='landing-documentation'>
         {/***************CONTAINER DOCUMENTACION TELEMATICA********************/}
         <div className='landing-documentation-zero containers' data-aos="fade-up" data-aos-duration="1500">

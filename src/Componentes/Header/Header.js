@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faX, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faX, faEnvelope, faPhone, faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
 import imageHeaderMobile from '../../Assets/Images/header-main-blanco.png';
-import headerImage from '../../Assets/Images/header-main.png'
+import imageHeaderDesktop from '../../Assets/Images/header-main.png';
+import imageLanding from '../../Assets/Images/imagenLanding'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -69,18 +70,35 @@ const Header = () => {
 
         {/******************* HEADER DESKTOP ****************************/}
 
-        <nav className='header-container-desktop'>
+        <div className='header-main-desktop'>
             <div className='header-desktop-link'>
-                <a href='www.cenitgestoria.es'><img src={headerImage} alt='cenit' className='header-image'></img></a>
+                <a href='www.cenitgestoria.es'><img src={imageHeaderDesktop} alt='cenit' className='header-image'></img></a>
             </div>
+            <div className='header-container-contact'>
+                <FontAwesomeIcon icon={faPhoneVolume} style={{fontSize:'26px', marginRight:'12px', color:'#365B6D'}} />
+                <p><a href="tel:+34 637 54 91 69">+34 637 54 91 69</a></p>
+            </div>
+        </div>
 
+        
+        <nav className='header-container-desktop'>
             <ul className='header-desktop-list'>
-                <li>Cambio de titularidad</li>
-                <li>Pide cita</li>
-                <li>Contacto</li>  
+                <li onClick={() => scrollTo('.landing-documentation')}>MATRICULACIÓN</li>
+                <li onClick={() => scrollTo('.titularidad')}> CAMBIO DE TITULARIDAD</li> 
+                <li onClick={() => scrollTo('.tramites')}>OTROS TRÁMITES</li>                  
+                <li onClick={() => scrollTo('.ambiente')}>MEDIO AMBIENTE</li>
+                <li onClick={() => scrollTo('.container-bici')}>BiciRegistro</li>
+                <li onClick={() => scrollTo('.footer-container')}>CONTACTO</li>
             </ul>
 
         </nav>
+
+
+
+      {/***************CONTAINER IMAGE LANDING********************/}
+      <div className='image-landing'>
+        <img src={imageLanding} className='landing-img' alt='landing'></img>
+      </div>
     </header>
   )
 }
