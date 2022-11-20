@@ -43,7 +43,7 @@
         background-color: #faf6fb;
         color: grey;
         position: absolute;
-        width: 100vw;
+        width: 100%;
         padding-top: 40px;
     }
     .footer-documentation-four-contacts p a {
