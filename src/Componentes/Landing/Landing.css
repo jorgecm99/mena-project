@@ -66,11 +66,10 @@
     }
     .icon-container {
         position: relative;
-        border: 1px solid #2ECC71;
         border-radius: 40px;
         width: 80px;
         height: 80px;
-        background-color: #69f5a3;
+        background-color: rgba(89, 121, 111, 0.8);
         margin: 30px auto;
     }
     .icon-style {
@@ -81,6 +80,7 @@
         right: 0;
         bottom: 0;
         margin: auto;
+        color: rgba(43, 73, 88, 0.8);;
     }
     .necesary {
         margin-bottom: 4px;
@@ -88,7 +88,7 @@
         font-weight: 500;
     }
     .container-slider {
-        background-color: #69f5a3;
+        background-color: rgba(133, 197, 176, 0.8);
         font-weight: 500;
         padding-left: 10px;
         padding-right: 10px;
@@ -169,11 +169,10 @@
     }
     .icon-container {
         position: relative;
-        border: 1px solid #2ECC71;
         border-radius: 40px;
         width: 80px;
         height: 80px;
-        background-color: #69f5a3;
+        background-color: rgba(89, 121, 111, 0.8);
         margin: 30px auto;
     }
     .icon-style {
@@ -184,6 +183,7 @@
         right: 0;
         bottom: 0;
         margin: auto;
+        color: rgba(43, 73, 88, 0.8);
     }
     .necesary {
         margin-bottom: 4px;
@@ -191,7 +191,7 @@
         font-weight: 500;
     }
     .container-slider {
-        background-color: #69f5a3;
+        background-color: rgba(133, 197, 176, 0.8);
         font-weight: 500;
         padding-left: 10px;
         padding-right: 10px;
@@ -290,11 +290,10 @@
     }
     .icon-container {
         position: relative;
-        border: 1px solid #2ECC71;
         border-radius: 40px;
         width: 80px;
         height: 80px;
-        background-color: #69f5a3;
+        background-color: rgba(89, 121, 111, 0.8);
         margin: 30px auto;
     }
     .icon-style {
@@ -305,6 +304,7 @@
         right: 0;
         bottom: 0;
         margin: auto;
+        color: rgba(43, 73, 88, 0.8);
     }
     .necesary {
         margin-bottom: 4px;
@@ -312,7 +312,7 @@
         font-weight: 500;
     }
     .container-slider {
-        background-color: #69f5a3;
+        background-color: rgba(133, 197, 176, 0.8);
         font-weight: 500;
         padding-left: 10px;
         padding-right: 10px;
