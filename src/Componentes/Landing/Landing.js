@@ -10,6 +10,24 @@ import 'slick-carousel/slick/slick-theme.css';
 
 AOS.init(); 
 
+function reveal() {
+  var reveals = document.querySelectorAll(".animation");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+
 const Landing = () => {
   const settings = {
     dots: false,
@@ -24,7 +42,7 @@ const Landing = () => {
 
       <div className='landing-documentation'>
         {/***************CONTAINER DOCUMENTACION TELEMATICA********************/}
-        <div className='landing-documentation-zero containers' data-aos="fade-up" data-aos-duration="1500">
+        <div className='landing-documentation-zero containers animation'>
           <div className='icon-container'>
             <FontAwesomeIcon icon={faDesktop} className='icon-style' />
           </div>
@@ -53,7 +71,7 @@ const Landing = () => {
         </div>
         
         {/***************CONTAINER ACAMBIO DE TITULARIDAD********************/}
-        <div className='landing-documentation-zero containers titularidad' data-aos="fade-up" data-aos-duration="1500">
+        <div className='landing-documentation-zero containers titularidad animation'>
         <div className='icon-container'>
             <FontAwesomeIcon icon={faArrowsRotate} className='icon-style' />
           </div>
@@ -85,7 +103,7 @@ const Landing = () => {
         </div>
 
         {/***************INFORMES********************/}
-        <div className='landing-documentation-zero containers' data-aos="fade-up" data-aos-duration="1500">
+        <div className='landing-documentation-zero containers animation'>
         <div className='icon-container'>
             <FontAwesomeIcon icon={faSheetPlastic} className='icon-style' />
           </div>
@@ -99,7 +117,7 @@ const Landing = () => {
         </div>
 
         {/*************************DOCUMENTOS EXTRANJEROS********************/}
-        <div className='landing-documentation-zero containers' data-aos="fade-up" data-aos-duration="1500">
+        <div className='landing-documentation-zero containers animation'>
         <div className='icon-container'>
             <FontAwesomeIcon icon={faGlobe} className='icon-style' />
           </div>
@@ -116,7 +134,7 @@ const Landing = () => {
         </div>
 
         {/***************OTROS TRÁMITES********************/}
-        <div className='landing-documentation-zero containers tramites' data-aos="fade-up" data-aos-duration="1500">
+        <div className='landing-documentation-zero containers tramites animation'>
         <div className='icon-container'>
             <FontAwesomeIcon icon={faListCheck} className='icon-style' />
           </div>
@@ -130,7 +148,7 @@ const Landing = () => {
         </div>
 
         {/***************MEDIO AMBIENTE********************/}
-        <div className='landing-documentation-zero containers ambiente' data-aos="fade-up" data-aos-duration="1500">
+        <div className='landing-documentation-zero containers ambiente animation'>
         <div className='icon-container'>
             <FontAwesomeIcon icon={faSeedling} className='icon-style' />
           </div>

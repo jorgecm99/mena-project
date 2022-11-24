@@ -76,7 +76,7 @@ const Header = () => {
             </div>
             <div className='header-container-contact'>
                 <FontAwesomeIcon icon={faPhoneVolume} style={{fontSize:'26px', marginRight:'12px', color:'#365B6D'}} />
-                <p><a href="tel:+34 637 54 91 69">+34 637 54 91 69</a></p>
+                <p><a href="https://api.whatsapp.com/send?phone=637 54 91 69">+34 637 54 91 69</a></p>
             </div>
         </div>
 

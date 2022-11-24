@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           <div className='footer-documentation-four-contacts'>
             <FontAwesomeIcon icon={faPhone} />
-            <p><a href="tel:+34 637 54 91 69">+34 637 54 91 69</a></p>
+            <p><a href="https://api.whatsapp.com/send?phone=637 54 91 69">+34 637 54 91 69</a></p>
           </div>
           <div className='footer-documentation-four-contacts'>
             <FontAwesomeIcon icon={faLocation} />
