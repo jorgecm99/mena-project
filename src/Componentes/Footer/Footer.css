@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 859px) {
     .footer-container {
-        background-color: #faf6fb;;
+        background-color: rgba(219, 219, 219, 0.8);
         color: grey;
         position: absolute;
         width: 100vw;
@@ -27,9 +27,9 @@
     .footer-documentation-four-contacts:last-child {
         padding-bottom: 20px;     
     }
-    .footer-documentation-four-contacts p a {
+    .footer-documentation-four-contacts p a, .footer-documentation-four-contacts p {
         text-decoration: none;
-        color: #959094;
+        color: #365B6D;
     }
 
 }
@@ -40,14 +40,15 @@
 
 @media only screen and (min-width: 860px) {
     .footer-container {
-        background-color: #faf6fb;
+        background-color: rgba(219, 219, 219, 0.8);
         color: grey;
         position: absolute;
         width: 100%;
         padding-top: 40px;
     }
-    .footer-documentation-four-contacts p a {
+    .footer-documentation-four-contacts p a, .footer-documentation-four-contacts p  {
         text-decoration: none;
-        color: #959094;
+        color: #365B6D;
+        font-weight: bold;
     }
 }

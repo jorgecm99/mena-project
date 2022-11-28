@@ -41,6 +41,37 @@ const Landing = () => {
     <div className='landing-container'>
 
       <div className='landing-documentation'>
+        {/***************CONTAINER ACAMBIO DE TITULARIDAD********************/}
+        <div className='landing-documentation-zero containers titularidad animation'>
+        <div className='icon-container'>
+            <FontAwesomeIcon icon={faArrowsRotate} className='icon-style' />
+          </div>
+          <h4>Cambio de titularidad</h4>
+          <div className='landing-documentation-text'>
+            <p>Desde Cenit te gestionamos el contrato de compraventa y la gestión del cambio de titularidad.</p>
+            <p className='necesary'>Documentación necesaria: </p>
+            {/***************SLIDER********************/}
+            <div className='container-slider'>
+            <Slider {...settings}>
+              <p className='container-slider-text'>Permiso de circulación original</p>
+              <p className='container-slider-text'>Ficha de inspección técnica de vehículo vigente, con el sello del ITV en vigor (ITV coche o moto)</p>
+              <p className='container-slider-text'>DNI comprador y vendedor. En caso de sociedad: CIF 
+              de la empresa, DNI del apoderado y escritura de poderes</p>
+              <p className='container-slider-text'>Fotocopia Impuesto de Vehículos de Tracción Mecánica 
+              del Ayuntamiento del vendedor (Impuesto de circulación)</p>
+              </Slider>
+            </div>
+            
+            <p>Al comprador se le entrega también un Justificante de gestoría que le permite circular legalmente 
+              por España durante el tiempo de tramitación en Tráfico.</p>
+            <p>Para calcular usted mismo el valor de su vehículo pulse en el siguiente enlace de la Comunidad de Madrid.
+               El impuesto de transmisiones patrimoniales será el 4% del valor de su vehículo.</p>
+            <div className='btn-container'>
+              <button className='btn-change'><a href='http://gestiona.madrid.org/vlin_valora_bienes/html/vehiculos/turismos.jsf?id=100_Turismos' target="_blank" rel="noopener noreferrer">Valor de tu vehículo</a></button>
+            </div>      
+          </div>
+        </div>
+
         {/***************CONTAINER DOCUMENTACION TELEMATICA********************/}
         <div className='landing-documentation-zero containers animation'>
           <div className='icon-container'>
@@ -70,38 +101,6 @@ const Landing = () => {
           </div>
         </div>
         
-        {/***************CONTAINER ACAMBIO DE TITULARIDAD********************/}
-        <div className='landing-documentation-zero containers titularidad animation'>
-        <div className='icon-container'>
-            <FontAwesomeIcon icon={faArrowsRotate} className='icon-style' />
-          </div>
-          <h4>Cambio de titularidad</h4>
-          <div className='landing-documentation-text'>
-            <p>Desde Cenit te gestionamos el contrato de compraventa y la gestión del cambio de titularidad.</p>
-            <p className='necesary'>Documentación necesaria: </p>
-            {/***************SLIDER********************/}
-            <div className='container-slider'>
-            <Slider {...settings}>
-              <p className='container-slider-text'>Permiso de circulación original</p>
-              <p className='container-slider-text'>Ficha de inspección técnica de vehículo vigente, con el sello del ITV en vigor (ITV coche o moto)</p>
-              <p className='container-slider-text'>DNI comprador y vendedor. En caso de sociedad: CIF 
-              de la empresa, DNI del apoderado y escritura de poderes</p>
-              <p className='container-slider-text'>Fotocopia Impuesto de Vehículos de Tracción Mecánica 
-              del Ayuntamiento del vendedor (Impuesto de circulación)</p>
-              </Slider>
-            </div>
-            
-            <p>Al comprador se le entrega también un Justificante de gestoría que le permite circular legalmente 
-              por España durante el tiempo de tramitación en Tráfico.</p>
-            <p>Para calcular usted mismo el valor de su vehículo pulse en el siguiente enlace de la Comunidad de Madrid.
-               El impuesto de transmisiones patrimoniales será el 4% del valor de su vehículo.</p>
-            <div className='btn-container'>
-              <button className='btn-change'><a href='http://gestiona.madrid.org/vlin_valora_bienes/html/vehiculos/turismos.jsf?id=100_Turismos' target="_blank" rel="noopener noreferrer">Valor de tu vehículo</a></button>
-            </div>
-            
-          </div>
-        </div>
-
         {/***************INFORMES********************/}
         <div className='landing-documentation-zero containers animation'>
         <div className='icon-container'>
@@ -152,7 +151,7 @@ const Landing = () => {
         <div className='icon-container'>
             <FontAwesomeIcon icon={faSeedling} className='icon-style' />
           </div>
-          <h4>Medio Ambiente</h4>
+          <h4>Distintivos ambientales</h4>
           <div className='landing-documentation-text'>
             <p>La clasificación del parque tiene como objetivo discriminar positivamente a los vehículos mas respetuosos 
               con el medio ambiente y ser un instrumento eficaz al servicio de las políticas municipales, tanto 
