@@ -153,6 +153,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;   
+        cursor: pointer;
     }
     .header-desktop-link {
         margin-left: 160px;
