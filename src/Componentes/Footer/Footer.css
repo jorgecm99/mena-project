@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 859px) {
     .footer-container {
-        background-color: rgba(219, 219, 219, 0.8);
+        background-color: rgba(177, 177, 177, 0.8);
         color: grey;
         position: absolute;
         width: 100vw;
@@ -21,7 +21,7 @@
         font-family: 'Rubik-Light';
         font-size: 22px;
         margin: 0 0 0 10px;
-        color: #959094;
+        color: #365B6D;
         
     }
     .footer-documentation-four-contacts:last-child {
@@ -40,7 +40,7 @@
 
 @media only screen and (min-width: 860px) {
     .footer-container {
-        background-color: rgba(219, 219, 219, 0.8);
+        background-color: rgba(177, 177, 177, 0.8);
         color: grey;
         position: absolute;
         width: 100%;

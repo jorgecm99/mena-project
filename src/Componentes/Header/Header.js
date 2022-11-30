@@ -40,8 +40,8 @@ const Header = () => {
                         <li onClick={() => scrollTo('.landing-documentation')}>MATRICULACIÓN</li>
                         <li onClick={() => scrollTo('.titularidad')}> CAMBIO DE TITULARIDAD</li> 
                         <li onClick={() => scrollTo('.tramites')}>OTROS TRÁMITES</li>                  
-                        <li onClick={() => scrollTo('.ambiente')}>MEDIO AMBIENTE</li>
-                        <li onClick={() => scrollTo('.container-bici')}>BiciRegistro</li>
+                        <li onClick={() => scrollTo('.ambiente')}>DISTINTIVOS AMBIENTALES</li>
+                        <li onClick={() => scrollTo('.container-bici')}>BICIREGISTRO</li>
                         <li onClick={() => scrollTo('.footer-container')}>CONTACTO</li>
                     </div> : null
                 } 
@@ -86,8 +86,8 @@ const Header = () => {
                 <li onClick={() => scrollTo('.landing-documentation')}>MATRICULACIÓN</li>
                 <li onClick={() => scrollTo('.titularidad')}> CAMBIO DE TITULARIDAD</li> 
                 <li onClick={() => scrollTo('.tramites')}>OTROS TRÁMITES</li>                  
-                <li onClick={() => scrollTo('.ambiente')}>MEDIO AMBIENTE</li>
-                <li onClick={() => scrollTo('.container-bici')}>BiciRegistro</li>
+                <li onClick={() => scrollTo('.ambiente')}>DISTINTIVOS AMBIENTALES</li>
+                <li onClick={() => scrollTo('.container-bici')}>BICIREGISTRO</li>
                 <li onClick={() => scrollTo('.footer-container')}>CONTACTO</li>
             </ul>
 
