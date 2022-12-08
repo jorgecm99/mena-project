@@ -1,7 +1,8 @@
 import React from 'react';
 import './Landing.css';
-import { faArrowsRotate, faBicycle, faDesktop, faGlobe, faListCheck, faSeedling } from '@fortawesome/free-solid-svg-icons';
+import { faArrowsRotate, faBicycle, faDesktop, faGlobe, faListCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import ecoImage from '../../Assets/Images/eco.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Slider from "react-slick";
@@ -48,6 +49,7 @@ const Landing = () => {
           </div>
           <h4>Cambio de titularidad</h4>
           <div className='landing-documentation-text'>
+            <p className='necesary'>Precio: 60€</p>
             <p>Desde Cenit te gestionamos de manera rápida y sencilla el cambio de nombre para tu coche, moto o camión.</p>
             <p>Nosotros nos encargamos y te ayudamos con esta gestión para que tanto el vendedor se asegure de la
                correcta presentación en Tráfico y el comprador pueda circular correctamente con su nuevo vehículo.</p>
@@ -141,7 +143,7 @@ const Landing = () => {
         {/***********************DISTINTIVOS AMBIENTALES********************/}
         <div className='landing-documentation-zero containers ambiente animation'>
           <div className='icon-container'>
-            <FontAwesomeIcon icon={faSeedling} className='icon-style' />
+            <img src={ecoImage} className="ecoImage" alt='eco'></img>
           </div>
           <h4>Distintivos ambientales para coches y motos</h4>
           <div className='landing-documentation-text'>

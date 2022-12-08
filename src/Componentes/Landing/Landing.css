@@ -107,6 +107,9 @@
     .landing-documentation-text li {
         list-style: none;
     }
+    .ecoImage {
+        width: 100%;
+    }
     
     
 }
@@ -226,6 +229,9 @@
     }
     .landing-documentation-text li {
         list-style: none;
+    }
+    .ecoImage {
+        width: 100%;
     }
     
 
@@ -347,6 +353,9 @@
     .landing-documentation-text li {
         list-style: none;
         font-weight: 500;
+    }
+    .ecoImage {
+        width: 100%;
     }
     
 }

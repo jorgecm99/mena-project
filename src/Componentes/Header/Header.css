@@ -1,6 +1,6 @@
 /***********MOBILE VERSION**************/
 
-@media only screen and (max-width: 859px) {
+@media only screen and (max-width: 767px) {
     .header-container{
         width: 100vw;
         top: 0;
@@ -120,11 +120,8 @@
     }
 }
 
-
-
-/***********DESKTOP VERSION**************/
-
-@media only screen and (min-width: 860px) {
+/***********TABLET VERSION**************/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .header-container {
         display: none;
     }
@@ -146,8 +143,7 @@
         color: #F2F1EC;
         font-family: 'Rubik-Light';
         font-size: 16px;
-        font-weight: 300;
-        
+        font-weight: 300;        
     }
     .header-desktop-list {
         display: flex;
@@ -156,7 +152,62 @@
         cursor: pointer;
     }
     .header-desktop-link {
-        margin-left: 160px;
+        margin-left: 50px;
+    }
+    .header-container-contact {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin-right: 50px;
+    }
+    .header-container-contact p a {
+        text-decoration: none;
+        color: #365B6D;
+        font-size: 24px;
+    }
+    .header-image {
+        width: 250px;
+    }
+    .image-landing {
+        display: none;
+    }
+
+}
+
+/***********DESKTOP VERSION**************/
+
+@media only screen and (min-width: 1024px) {
+    .header-container {
+        display: none;
+    }
+    .header-main-desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-container-desktop {
+        background-image: linear-gradient( 135deg, rgba(43, 73, 88, 0.8) 0%, rgba(89, 121, 111, 0.8) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .header-container-desktop li {
+        list-style: none;
+        margin: 0 10px;
+        color: #F2F1EC;
+        font-family: 'Rubik-Light';
+        font-size: 16px;
+        font-weight: 300;        
+    }
+    .header-desktop-list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;   
+        cursor: pointer;
+    }
+    .header-desktop-link {
+        margin-left: 50px;
     }
     .header-image {
         width: 250px;
