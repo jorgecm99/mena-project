@@ -1,8 +1,11 @@
 import React from 'react';
 import './Landing.css';
-import { faArrowsRotate, faBicycle, faDesktop, faGlobe, faListCheck } from '@fortawesome/free-solid-svg-icons';
+import { faArrowsRotate, faBicycle, /*faDesktop,*/ faGlobe, faListCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import ecoImage from '../../Assets/Images/eco.png'
+import zeroImage from '../../Assets/Images/dis0.png';
+import ecoImage from '../../Assets/Images/disECO.png';
+import beImage from '../../Assets/Images/disB.png';
+import ceImage from '../../Assets/Images/disC.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Slider from "react-slick";
@@ -78,7 +81,7 @@ const Landing = () => {
         </div>
 
         {/***************CONTAINER DOCUMENTACION TELEMATICA********************/}
-        <div className='landing-documentation-zero containers animation'>
+        {/*<div className='landing-documentation-zero containers animation'>
           <div className='icon-container'>
             <FontAwesomeIcon icon={faDesktop} className='icon-style' />
           </div>
@@ -87,7 +90,7 @@ const Landing = () => {
             <p>Para los ciudadanos que compran un vehículo en un concesionario obtenemos su matriculación en 
               el mismo día.</p>
             <p className='necesary'>Documentación necesaria: </p>
-            {/***************SLIDER********************/}
+            ***************SLIDER********************
             
             <div className='container-slider'>
             <Slider {...settings}>
@@ -104,7 +107,7 @@ const Landing = () => {
             <p>Se dispone de 15 días para retirar el permiso de circulación definitivo en la Jefatura de 
               Tráfico correspondiente.</p>
           </div>
-        </div>
+          </div>*/}
 
         {/*************************DOCUMENTOS EXTRANJEROS********************/}
         <div className='landing-documentation-zero containers animation'>
@@ -137,13 +140,29 @@ const Landing = () => {
                arrendatarios, fecha de la ultima transferencia, historial de bajas, inspecciones técnicas, 
                incidencias, exenciones, pago de IVTM, embargos, precintos, datos del vehículo y limitaciones 
                del mismo.</p>
+            <h3>Matriculación telemática</h3>
+            <p className='necesary'>Documentación necesaria: </p>
+            {/***************SLIDER********************/}
+            
+            <div className='container-slider'>
+            <Slider {...settings}>
+              <p className='container-slider-text'>3 ejemplares de la Tarjeta ITV (ejemplar para el interesado, 
+              para la Jefatura con la diligencia de venta y el ejemplar de la Industria).</p>
+              <p className='container-slider-text'>Se han de confeccionar y presentar todos los impuestos correspondientes.</p>
+              <p className='container-slider-text'>Documentos de identidad y representación del interesado, así como su 
+              autorización reflejada en el mandato.</p>      
+            </Slider>
+            </div>
           </div>
         </div>
 
         {/***********************DISTINTIVOS AMBIENTALES********************/}
         <div className='landing-documentation-zero containers ambiente animation'>
-          <div className='icon-container'>
+          <div className='icon-container-div'>
+            <img src={zeroImage} className="ecoImage" alt='eco'></img>
             <img src={ecoImage} className="ecoImage" alt='eco'></img>
+            <img src={beImage} className="ecoImage" alt='eco'></img>
+            <img src={ceImage} className="ecoImage" alt='eco'></img>
           </div>
           <h4>Distintivos ambientales para coches y motos</h4>
           <div className='landing-documentation-text'>
