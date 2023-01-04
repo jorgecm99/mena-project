@@ -61,7 +61,7 @@ const Header = () => {
         </div>
 
         <div className='header-main-container-icon'>
-            <button className='btn-header-container'><a href='mailto:catalinabarrosr@gmail.com'><FontAwesomeIcon icon={faEnvelope} style={{color:'#F2F1EC'}}/></a></button>
+            <button className='btn-header-container'><a href='mailto:info@cenitgestoria.com'><FontAwesomeIcon icon={faEnvelope} style={{color:'#F2F1EC'}}/></a></button>
             <button className='btn-header-container'><a href="https://api.whatsapp.com/send?phone=34637549169"><FontAwesomeIcon icon={faPhone} style={{color:'#F2F1EC'}}/></a></button>
         </div>       
         </nav>
