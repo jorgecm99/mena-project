@@ -72,7 +72,7 @@ const Header = () => {
 
         <div className='header-main-desktop'>
             <div className='header-desktop-link'>
-                <a href='www.cenitgestoria.es'><img src={imageHeaderDesktop} alt='cenit' className='header-image'></img></a>
+                <img src={imageHeaderDesktop} alt='cenit' className='header-image'></img>
             </div>
             <div className='header-container-contact'>
                 <FontAwesomeIcon icon={faPhoneVolume} style={{fontSize:'26px', marginRight:'12px', color:'#365B6D'}} />
